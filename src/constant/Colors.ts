@@ -4,5 +4,5 @@ export const COLORS = {
   black: "#050718",
   black2: "#171820",
   white: "#FFFFFF",
-  link: "#A6A9B8",
+  gray: "#A6A9B8",
 };

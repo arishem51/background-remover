@@ -11,7 +11,7 @@ const Link = (props: Props) => {
 const Anchor = styled.a`
   text-decoration: none;
   appearance: none;
-  color: ${COLORS.link};
+  color: ${COLORS.gray};
 `;
 
 export default Link;
