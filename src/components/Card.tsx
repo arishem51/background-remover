@@ -1,3 +1,4 @@
+import React from "react";
 import { HTMLAttributes, ReactElement } from "react";
 import styled from "styled-components";
 import { COLORS } from "../constant/Colors";

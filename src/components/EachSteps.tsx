@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 import { Card1, Card2, Card3 } from "../assets";
 import { COLORS } from "../constant/Colors";

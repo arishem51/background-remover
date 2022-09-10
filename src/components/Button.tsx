@@ -1,3 +1,4 @@
+import React from "react";
 import { ButtonHTMLAttributes, PropsWithChildren } from "react";
 import styled from "styled-components";
 import { COLORS } from "../constant/Colors";

@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 import { Upload } from "../assets";
 import { COLORS } from "../constant/Colors";
