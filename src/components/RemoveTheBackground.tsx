@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { Upload } from "../assets";
 import { COLORS } from "../constant/Colors";
 import LinearGradientButton from "./LinearGradientButton";
+import LinearHeading from "./LinearHeading";
 import { BackgroundSpace } from "./Space";
 
 const Section = styled.section`
@@ -79,7 +80,10 @@ const RemoveTheBackground = () => {
         <RightImg src={require("../assets/Right-background-remove.png")} />
       </Figure>
       <TextContent>
-        <Heading>Remove the background from images for free.</Heading>
+        <Heading>
+          Remove the background from images for{" "}
+          <LinearHeading>free.</LinearHeading>
+        </Heading>
         <BackgroundSpace size={20} />
         <Title>
           Remove background from images of humans, animals or objects and
