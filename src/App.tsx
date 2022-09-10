@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import EachSteps from "./components/EachSteps";
+import Example from "./components/Example";
 import Features from "./components/Features";
 import Header from "./components/Header";
 import RemoveTheBackground from "./components/RemoveTheBackground";
@@ -23,6 +24,7 @@ function App() {
       <BackgroundSpace size={170} />
       <Features />
       <BackgroundSpace size={170} />
+      <Example />
     </Wrapper>
   );
 }
