@@ -14,6 +14,7 @@ const Section = styled.section`
 
 const Figure = styled.figure`
   min-width: 470px;
+  width: 470px;
   min-height: 470px;
 `;
 
