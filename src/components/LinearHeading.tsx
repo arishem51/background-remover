@@ -7,15 +7,9 @@ type Props = PropsWithChildren;
 const LinearHeading = ({ children }: Props) => {
   return (
     <Wrapper>
-      <div
-        style={{
-          background: COLORS.black2,
-          padding: "0 4px",
-          display: "inline-block",
-        }}
-      >
+      <TextWrapper>
         <H1>{children}</H1>
-      </div>
+      </TextWrapper>
     </Wrapper>
   );
 };
@@ -24,6 +18,12 @@ const Wrapper = styled.div`
   background: linear-gradient(89.86deg, #ff4040 61.82%, #ac00fd 89.91%);
   display: inline-block;
   padding: 2px;
+`;
+
+const TextWrapper = styled.div`
+  padding: 4px 6px;
+  display: inline-block;
+  background-color: ${COLORS.black2};
 `;
 
 const H1 = styled.h1`
