@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { Card1, Card2, Card3 } from "../assets";
 import { COLORS } from "../constant/Colors";
 import Card from "./Card";
+import DefaultHeading from "./Heading";
 import LinearHeading from "./LinearHeading";
 import { BackgroundSpace } from "./Space";
 
@@ -11,11 +12,8 @@ const Wrapper = styled.section`
   flex-direction: column;
 `;
 
-const Heading = styled.h1`
-  font-weight: 800;
-  font-size: 42px;
+const Heading = styled(DefaultHeading)`
   text-align: center;
-  color: ${COLORS.white};
 `;
 
 const Title = styled.p`

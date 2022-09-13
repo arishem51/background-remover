@@ -25,6 +25,8 @@ function App() {
       <Features />
       <BackgroundSpace size={170} />
       <Example />
+      <BackgroundSpace size={170} />
+      <BackgroundSpace size={170} />
     </Wrapper>
   );
 }

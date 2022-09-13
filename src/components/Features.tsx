@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Union } from "../assets";
 import { COLORS } from "../constant/Colors";
+import DefaultHeading from "./Heading";
 import LinearHeading from "./LinearHeading";
 
 const Section = styled.section`
@@ -10,11 +11,7 @@ const Section = styled.section`
   flex-direction: column;
 `;
 
-const Heading = styled.h1`
-  font-weight: 800;
-  font-size: 42px;
-  line-height: 52px;
-  color: ${COLORS.white};
+const Heading = styled(DefaultHeading)`
   width: 35%;
 `;
 

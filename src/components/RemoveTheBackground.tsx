@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Upload } from "../assets";
 import { COLORS } from "../constant/Colors";
+import Heading from "./Heading";
 import LinearGradientButton from "./LinearGradientButton";
 import LinearHeading from "./LinearHeading";
 import { BackgroundSpace } from "./Space";
@@ -53,10 +54,8 @@ const TextContent = styled.div`
   flex-direction: column;
 `;
 
-const Heading = styled.h1`
-  font-weight: 800;
+const LargeHeading = styled(Heading)`
   font-size: 66px;
-  color: ${COLORS.white};
 `;
 
 const Title = styled.p`
@@ -81,10 +80,10 @@ const RemoveTheBackground = () => {
         <RightImg src={require("../assets/Right-background-remove.png")} />
       </Figure>
       <TextContent>
-        <Heading>
+        <LargeHeading>
           Remove the background from images for{" "}
           <LinearHeading>free.</LinearHeading>
-        </Heading>
+        </LargeHeading>
         <BackgroundSpace size={20} />
         <Title>
           Remove background from images of humans, animals or objects and
