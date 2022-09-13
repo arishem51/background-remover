@@ -4,6 +4,7 @@ import EachSteps from "./components/EachSteps";
 import Example from "./components/Example";
 import Features from "./components/Features";
 import Header from "./components/Header";
+import Plugins from "./components/Plugins";
 import RemoveTheBackground from "./components/RemoveTheBackground";
 import { BackgroundSpace } from "./components/Space";
 import { COLORS } from "./constant/Colors";
@@ -26,6 +27,7 @@ function App() {
       <BackgroundSpace size={170} />
       <Example />
       <BackgroundSpace size={170} />
+      <Plugins />
       <BackgroundSpace size={170} />
     </Wrapper>
   );
