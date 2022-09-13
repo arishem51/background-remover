@@ -6,6 +6,7 @@ import Heading from "./Heading";
 import LinearGradientButton from "./LinearGradientButton";
 import LinearHeading from "./LinearHeading";
 import { BackgroundSpace } from "./Space";
+import Title from "./Title";
 
 const Section = styled.section`
   display: flex;
@@ -56,11 +57,6 @@ const TextContent = styled.div`
 
 const LargeHeading = styled(Heading)`
   font-size: 66px;
-`;
-
-const Title = styled.p`
-  color: ${COLORS.gray};
-  font-size: 18px;
 `;
 
 const UploadButton = styled(LinearGradientButton)`
