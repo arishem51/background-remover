@@ -8,6 +8,11 @@ import { ReactComponent as Adobe } from "./adobe.svg";
 import { ReactComponent as Figma } from "./figma.svg";
 import { ReactComponent as Sketch } from "./sketch.svg";
 import { ReactComponent as Woocommerce } from "./Woocommerce.svg";
+import { ReactComponent as Star } from "./star.svg";
+import { ReactComponent as RightArrow } from "./RightArrow.svg";
+import { ReactComponent as LeftArrow } from "./LeftArrow.svg";
 
 
-export { MainIcon, Upload, Card1, Card2, Card3, Union,Adobe,Figma,Sketch,Woocommerce };
+
+
+export { MainIcon, Upload, Card1, Card2, Card3, Union,Adobe,Figma,Sketch,Woocommerce ,Star,LeftArrow,RightArrow};
