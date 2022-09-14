@@ -11,8 +11,15 @@ import { ReactComponent as Woocommerce } from "./Woocommerce.svg";
 import { ReactComponent as Star } from "./star.svg";
 import { ReactComponent as RightArrow } from "./RightArrow.svg";
 import { ReactComponent as LeftArrow } from "./LeftArrow.svg";
+import { ReactComponent as DownArrow } from "./DownArrow.svg";
+import { ReactComponent as English } from "./English.svg";
+import { ReactComponent as Twitter } from "./twitter.svg";
+import { ReactComponent as LinkedIn } from "./linkedin.svg";
+import { ReactComponent as Facebook } from "./facebook.svg";
 
 
 
 
-export { MainIcon, Upload, Card1, Card2, Card3, Union,Adobe,Figma,Sketch,Woocommerce ,Star,LeftArrow,RightArrow};
+
+
+export { MainIcon, Upload, Card1, Card2, Card3, Union,Adobe,Figma,Sketch,Woocommerce ,Star,LeftArrow,RightArrow,DownArrow,English,Facebook,Twitter,LinkedIn};

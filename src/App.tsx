@@ -14,6 +14,7 @@ import "swiper/css/pagination";
 
 import About from "./components/About";
 import GetStarted from "./components/GetStarted";
+import Footer from "./components/Footer";
 
 const Wrapper = styled.div`
   background-color: ${COLORS.black2};
@@ -38,6 +39,8 @@ function App() {
       <About />
       <BackgroundSpace size={170} />
       <GetStarted />
+      <BackgroundSpace size={100} />
+      <Footer />
     </Wrapper>
   );
 }
