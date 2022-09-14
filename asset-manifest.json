@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/background-remover/static/css/main.9a16f77d.css",
-    "main.js": "/background-remover/static/js/main.0792b76c.js",
+    "main.js": "/background-remover/static/js/main.71eaacf0.js",
     "static/js/787.1ba6fcbf.chunk.js": "/background-remover/static/js/787.1ba6fcbf.chunk.js",
     "static/media/example.png": "/background-remover/static/media/example.072c3f0efb786cf89743.png",
     "static/media/Middle-background-remove.png": "/background-remover/static/media/Middle-background-remove.7b2d13850c72ea033f71.png",
@@ -32,11 +32,11 @@
     "static/media/RightArrow.svg": "/background-remover/static/media/RightArrow.866ad2e10dc61b21c836b857e41f6a82.svg",
     "static/media/DownArrow.svg": "/background-remover/static/media/DownArrow.c8ae50a08ad52f32dd37ffec22fa9500.svg",
     "main.9a16f77d.css.map": "/background-remover/static/css/main.9a16f77d.css.map",
-    "main.0792b76c.js.map": "/background-remover/static/js/main.0792b76c.js.map",
+    "main.71eaacf0.js.map": "/background-remover/static/js/main.71eaacf0.js.map",
     "787.1ba6fcbf.chunk.js.map": "/background-remover/static/js/787.1ba6fcbf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9a16f77d.css",
-    "static/js/main.0792b76c.js"
+    "static/js/main.71eaacf0.js"
   ]
 }
