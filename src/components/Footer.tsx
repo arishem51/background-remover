@@ -13,8 +13,11 @@ const FooterContent = styled.footer`
   display: flex;
   padding-bottom: 39px;
   justify-content: space-between;
-  & > div {
-    flex: 1;
+  & > div:first-child {
+    flex: 2;
+  }
+  & > div:last-child {
+    flex: 3;
   }
 `;
 
@@ -28,7 +31,7 @@ const Left = styled.div`
   gap: 24px;
   ${TextTitle} {
     flex: 1;
-    width: 50%;
+    width: 60%;
   }
   align-items: flex-start;
 `;
